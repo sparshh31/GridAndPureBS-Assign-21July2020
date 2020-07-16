@@ -1,0 +1,24 @@
+#main aside{
+    border-right:4px double purple;
+    height: 600px;
+    width:25%;
+    margin-left: 60px;
+    float: left;
+    margin-top: 0px;
+    background-image: linear-gradient(to bottom ,purple, #9562a1);
+
+}
+#main article{
+    margin-top: 0px;
+    height: 600px;
+    float: left;
+    width:65%;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: justify;
+    column-count: 3;
+}
+body{
+    background: url(../dkSK3Dv.jpg);
+    background-position: bottom center no-repeat;
+}
