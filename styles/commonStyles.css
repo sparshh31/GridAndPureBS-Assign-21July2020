@@ -20,7 +20,7 @@
 #headersection header{
     height:150px;
     width:90%;
-    background: url(../th.jpg) left center no-repeat;
+    background: url(../images/zensar.jpg) left center no-repeat;
      
     margin-top:40px ;
     margin-left: 60px;
@@ -34,7 +34,7 @@
     margin-left: 60px;
     margin-top: 0;
     background-color: black;
-    background-image: linear-gradient(to bottom ,purple, #ac7db3);
+    background-image: linear-gradient(to bottom ,purple, rgb(189, 151, 157));
     border-radius: 5px;
     padding-top: 10px;
     }

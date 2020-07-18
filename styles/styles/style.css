@@ -1,0 +1,57 @@
+   section, h1 { 
+    margin: 2rem 4rem;  
+   
+   } 
+   .square { 
+   
+   width: 150px; 
+   
+   height: 150px; 
+   
+   background: blue; 
+   
+     position: relative; 
+   
+   } 
+   /* The skew() method */ 
+   
+   #skew .square { 
+     background-color: purple; 
+   transform: skew(20deg ,20deg);
+   } 
+   #skew .square:hover { 
+       background-color: aliceblue;  
+   } 
+
+   /* The scale() method */ 
+   #scale .square div {  
+      background: #000;   
+      position: absolute; 
+      left: 25%; 
+      top: 25%; 
+      width: 75px; 
+      height: 75px; 
+      transform: scale(0.7);
+   } 
+   
+   #scale .square div:hover { 
+       background-color: thistle;
+   
+   } 
+   /* The rotate() method */ 
+   #rotate .square { 
+     background-color: tomato; 
+transform: rotate(60deg);
+   } 
+   #rotate .square:hover {    
+       background-color: palevioletred;
+   } 
+   
+   /* The translate() method */ 
+   #translate .square { 
+     background-color: orange; 
+     transform: translate(900px);
+   } 
+   #translate .square:hover {  
+       background-color: blueviolet; 
+   } 
